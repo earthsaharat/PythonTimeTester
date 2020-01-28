@@ -1,6 +1,5 @@
-import datetime
-
 def run(howmany, _function):
+	import datetime
 	total = 0
 	howmany = howmany
 	for _ in range(howmany):
