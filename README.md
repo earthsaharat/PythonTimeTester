@@ -16,7 +16,7 @@ put this code in your code
 
 ```python
 def x():
-  # put your program hear
+  # put your program here
   print("hello world")
   # this is the example
 
