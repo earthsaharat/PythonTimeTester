@@ -1,6 +1,6 @@
 # PythonTimeTester
 
-This is the time tester for your python program
+This is the runtime tester for your python program
 
 ## How to use
 
@@ -16,7 +16,9 @@ This is the time tester for your python program
 
    ```python
    def x():
-     # put your program that you want to test here
+     # Put your program that you want to test here
+     # Example
+     print('Hello world')
    
    print(TimeTester.run(100000,x))
    ```
