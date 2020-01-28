@@ -25,4 +25,4 @@ print(TimeTester.run(100000,x))
 
 this number (100000) is how many running of your code. The library will average interval and return in milliseconds
 
-* Saharat Saengsawang*
+*Saharat Saengsawang*
