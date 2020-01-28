@@ -4,8 +4,8 @@ This is the runtime tester for your python program
 
 ## How to use
 
-1. Download this library
-2. Put TimeTester.py into same directory with your python file
+1. download this library
+2. put TimeTester.py into same directory with your python file
 3. import this library into your file
 
    ```python
@@ -23,6 +23,8 @@ This is the runtime tester for your python program
    print(TimeTester.run(100000,x))
    ```
 
-this number (100000) is how many running of your code that you want to test. The library will average all of intervals and return in milliseconds
+The number *100000* is how many running of your code that you want to test. 
+
+The library will sum all of intervals for each running and return the average in milliseconds
 
 *Saharat Saengsawang*
