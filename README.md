@@ -4,7 +4,9 @@ This is the time tester for your python program
 
 ## How to use
 
-import this library
+download this library into same directory with your file
+
+import this library into your file
 
 ```python
 import TimeTester
