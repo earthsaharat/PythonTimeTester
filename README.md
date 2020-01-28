@@ -14,9 +14,9 @@ put this code in your code
 
 ```python
 def x():
-  # put your function hear
-  # this is the example
+  # put your program hear
   print("hello world")
+  # this is the example
 
 print(TimeTester.run(100000,x))
 ```
