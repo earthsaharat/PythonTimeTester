@@ -4,25 +4,23 @@ This is the time tester for your python program
 
 ## How to use
 
-download this library into same directory with your file
+1. Download this library
+2. Put TimeTester.py into same directory with your python file
+3. import this library into your file
 
-import this library into your file
+   ```python
+   import TimeTester
+   ```
 
-```python
-import TimeTester
-```
+4. put this code in your code
 
-put this code in your code
+   ```python
+   def x():
+     # put your program that you want to test here
+   
+   print(TimeTester.run(100000,x))
+   ```
 
-```python
-def x():
-  # put your program here
-  print("hello world")
-  # this is the example
-
-print(TimeTester.run(100000,x))
-```
-
-this number (100000) is how many running of your code. The library will average interval and return in milliseconds
+this number (100000) is how many running of your code that you want to test. The library will average all of intervals and return in milliseconds
 
 *Saharat Saengsawang*
