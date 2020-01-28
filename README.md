@@ -17,3 +17,4 @@ def x():
 	# put your function hear
 	print(TimeTester.run(100000,x))
 ```
+
